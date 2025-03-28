@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+    --purple :"#3f3cbb";
+    --midhnight :"#121063";
+    --metal:"#565584";
+}
+ 
