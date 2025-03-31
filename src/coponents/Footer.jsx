@@ -7,7 +7,10 @@ export default function Footer() {
     <div class="grid justify-between grid-cols-1 md:grid-cols-2">
       <h5 class="mb-6 text-xl font-semibold text-white">
         A propos
+      
       </h5>
+      
+     
       <div class="grid justify-between grid-cols-1 md:grid-cols-3">
         <ul>
           <p class="block mb-1 text-base font-semibold  text-white">
@@ -26,51 +29,34 @@ export default function Footer() {
         </ul>
         <ul>
           <p class="block mb-1 text-base font-semibold text-white">
-            Company
+            Suivez nous
           </p>
           <li>
             <a href="#" class="block text-white py-1 hover:text-slate-500 focus:text-slate-500 text-sm">
-              About us
+              Facebook
             </a>
           </li>
           <li>
             <a href="#" class="block text-white py-1 hover:text-slate-500 focus:text-slate-500 text-sm">
-              Careers
+              Instagrame
             </a>
           </li>
-          <li>
-            <a href="#" class="block text-white py-1 hover:text-slate-500 focus:text-slate-500 text-sm">
-              Press
-            </a>
-          </li>
-          <li>
-            <a href="#" class="block text-white py-1 hover:text-slate-500 focus:text-slate-500 text-sm">
-              News
-            </a>
-          </li>
+          
+          
         </ul>
         <ul>
           <p class="block mb-1 text-base font-semibold text-white">
-            Resource
+          Mention légal
           </p>
           <li>
             <a href="#" class="block text-white py-1 hover:text-slate-500 focus:text-slate-500 text-sm">
-              Blog
+              Condition general
             </a>
           </li>
           <li>
             <a href="#" class="block text-white py-1 hover:text-slate-500 focus:text-slate-500 text-sm">
-              Newsletter
-            </a>
-          </li>
-          <li>
-            <a href="#" class="block text-white py-1 hover:text-slate-500 focus:text-slate-500 text-sm">
-              Events
-            </a>
-          </li>
-          <li>
-            <a href="#" class="block text-white py-1 hover:text-slate-500 focus:text-slate-500 text-sm">
-              Help center
+            Politique de confidentialité
+
             </a>
           </li>
         </ul>

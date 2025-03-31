@@ -16,8 +16,8 @@ export default function Clients() {
         { id: 3, name: "Emma D.", review: "Excellente expérience, on reviendra." },
       ];
     return (<>
-<h6 class="text-lg font-bold dark:text-white ">AVIS CLIENT</h6>
- <div className="flex flex-wrap ml-3">
+<h6 class="text-lg font-bold dark:text-white  ml-5">AVIS CLIENT</h6>
+ <div className="flex flex-wrap">
 
               {
                 reviews.map((client)=><OneClient client={client} key={client.id}/>)

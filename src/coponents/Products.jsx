@@ -45,9 +45,9 @@ export default function Products() {
   ];
   return ( 
   <div className="flex-col">
-    <h6 class="text-lg font-bold dark:text-white">Logement disponible</h6>
+    <h6 class="text-lg font-bold dark:text-white ml-5">Logement disponible</h6>
     {/* barre*/} 
-    <div className='flex  overflow-x-auto'>
+    <div className='flex overflow-x-auto'>
 	 
 
       {
