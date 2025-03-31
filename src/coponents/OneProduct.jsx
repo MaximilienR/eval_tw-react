@@ -5,8 +5,8 @@ export default function OneProuct({product}) {
 
   
     
-<div class="p-3 m-3 bg-white w-72 rounded-2xl hover:cursor-pointer drop-shadow-2xl minWidth: '300px', overflowX: 'auto'" style={{ minWidth: '300px', overflowX: 'auto' }}>
-<img src ={product.image}  alt="product" className=" object-cover rounded-xl w-64 h-48 " />
+    <div class="p-3 m-3 bg-white w-72 rounded-2xl hover:cursor-pointer drop-shadow-2xl min-w-[300px] overflow-x-auto">
+    <img src ={product.image}  alt="product" className="object-cover w-64 h-48 rounded-xl" />
 
     <a href="#">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{product.title}</h5>
