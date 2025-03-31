@@ -43,16 +43,18 @@ export default function Products() {
       price: "90",
     },
   ];
-  return (<>
+  return ( 
+  <div className="flex-col">
     <h6 class="text-lg font-bold dark:text-white">Logement disponible</h6>
-
-    <div className='flex '>
+    {/* barre*/} 
+    <div className='flex  overflow-x-auto'>
 	 
 
       {
         listings.map((product)=><OneProduct product={product} key={product.id}/>)
       }
     </div>
-    </>
+  
+    </div>
   )
 }
