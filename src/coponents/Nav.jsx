@@ -16,6 +16,7 @@ export default function Nav() {
         </div>
       </div>
     </div>
+    {/*  button pour le menu burger */}
     <div class="md:hidden sm:ml-6 sm:block">
     <i class="fa-solid fa-bars text-3xl"></i>
 </div>
