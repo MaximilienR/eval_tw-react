@@ -45,9 +45,9 @@ export default function Products() {
     },
   ];
   return ( 
-  <div className="flex-colbg-gray-100">
+  <div className="flex-col bg-gray-100">
     <h6 class="text-lg font-bold dark:text-white ml-5">Logement disponible</h6>
-    {/* barre*/} 
+    {/* pour faire la barre de scrol horizontal  */} 
     <div className='flex overflow-x-auto'>
 	 
 

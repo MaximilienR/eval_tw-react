@@ -17,7 +17,9 @@ export default function Clients() {
       ];
     return (<>
 <h6 class="text-lg font-bold dark:text-white  ml-5 ">AVIS CLIENT</h6>
- <div className="flex flex-wra p">
+{/* conteneur de grille avec 3 colonnes  */}
+<div class="grid    md:grid-cols-3 ">
+
 
               {
                 reviews.map((client)=><OneClient client={client} key={client.id}/>)
