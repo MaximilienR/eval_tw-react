@@ -17,7 +17,7 @@ export default function Clients() {
       ];
     return (<>
 <h6 class="text-lg font-bold dark:text-white  ml-5 ">AVIS CLIENT</h6>
- <div className="flex flex-wrap">
+ <div className="flex flex-wra p">
 
               {
                 reviews.map((client)=><OneClient client={client} key={client.id}/>)
